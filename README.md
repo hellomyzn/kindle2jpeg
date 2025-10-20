@@ -59,7 +59,7 @@ osascript kindle2jpeg.scpt [options]
 osascript kindle2jpeg.scpt -b "Atomic Habits" -p 20
 ```
 
-➡ `/Users/miyazonoeiji/screen shots/KindleScreenshots/Atomic Habits/` に以下のように保存：
+➡ `/Users/<USERNAME>/screen shots/KindleScreenshots/Atomic Habits/` に以下のように保存：
 
 ```
 Atomic Habits_Page1.jpg
@@ -92,7 +92,7 @@ make run b="Book Title" p=100
 
 | 変数名                | 説明                               | 既定値                                                   |
 | ------------------ | -------------------------------- | ----------------------------------------------------- |
-| `saveToLocation`   | 保存先フォルダの親ディレクトリ                  | `/Users/miyazonoeiji/screen shots/KindleScreenshots/` |
+| `saveToLocation`   | 保存先フォルダの親ディレクトリ                  | `/Users/<USERNAME>/screen shots/KindleScreenshots/` |
 | `screenshotRegion` | スクリーンショット範囲（x, y, width, height） | `{84, 88, 678, 952}`                                  |
 | `windowPosition`   | Kindleウィンドウ位置（x, y）              | `{10, 60}`                                            |
 | `windowSize`       | Kindleウィンドウサイズ（width, height）    | `{827, 980}`                                          |

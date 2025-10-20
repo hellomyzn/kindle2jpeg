@@ -35,7 +35,7 @@ Example:
     end repeat
 
     -- 基本設定
-    set saveToLocation to "/Users/miyazonoeiji/screen shots/KindleScreenshots/"
+    set saveToLocation to "/Users/<USERNAME>/screen shots/KindleScreenshots/"
     set screenshotRegion to {84, 88, 678, 952}
     set windowPosition to {10, 60}
     set windowSize to {827, 980}
