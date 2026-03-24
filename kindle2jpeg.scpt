@@ -35,10 +35,16 @@ Example:
     end repeat
 
     -- 基本設定
-    set saveToLocation to "/Users/<USERNAME>/screen shots/KindleScreenshots/"
-    set screenshotRegion to {84, 88, 678, 952}
-    set windowPosition to {10, 60}
-    set windowSize to {827, 980}
+    set saveToLocation to "/Users/miyazonoeiji/screen shots/KindleScreenshots/"
+    -- region to take schreenshots (x, y, width, height)
+    set screenshotRegion to {10, 48, 825, 992}
+
+    -- left top position
+    set windowPosition to {10, 20}
+
+    -- width, height 
+    set windowSize to {835, 1040}
+
     set pageKeyCode to 125
 
     -- 保存フォルダを作成
